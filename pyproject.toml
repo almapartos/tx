@@ -1,10 +1,10 @@
 [project]
 name = "tx"
 version = "0.0.1"
-description = "My project"
+description = "A program for tensor cross interpolation."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["h5py"]
+dependencies = ["h5py", "numpy"]
 authors = [
     {name = "Alma Partos", email = "partos@doktorant.umk.pl"},
 ]
@@ -12,3 +12,4 @@ authors = [
 [build-system]
 requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
+license = "MIT"
